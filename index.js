@@ -5,7 +5,7 @@ const firststep = ()=>{
   const removeMe = ()=>{
 
     const secondstepimage = document.getElementById('secondstep');
-    secondstepimage.innerHTML = `<img src="./secondstepimg.png">`
+    secondstepimage.innerHTML = `<img src="secondstepimg.png">`
     
     setTimeout(() => {
         secondstepimage.style.display='none';
