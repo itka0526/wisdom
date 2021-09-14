@@ -4,22 +4,18 @@
     
     <head>
         
-        <link rel='icon' href='./logoforwisdom.png'>
-        <title>Wisdom teller</title>
     </head>
 
     <body>
-        <p1>Hello, welcome! Please give me your name for magic.</p1>
-        <input id='firstName' placeholder="firstname" onchange="firststep()">
-        <input id='lastName' placeholder="lastname" >
-
-        <div id='secondstep'>
-            
-        </div>
-        <input id='thirdstep' style='display:none' placeholder='input 3-digits of your birth'> 
-        <button id='thirdstepbtn' style='display:none'>Shazam!</button>
-        <p1 id='output'></p1>
+        <h1 id="polo">here</h1>
+        <button id='olol' >click here</button>
     </body>
 
-    <script defer src='./index.js'></script>
+    <script > 
+        const btn = document.getElementById("olol");
+        const field = document.getElementById("polo");
+        btn.addEventListener('click', ()=>{
+            field.innerHTML = "Eat shit and die"
+        })
+    </script>
 </html>
