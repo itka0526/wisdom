@@ -9,13 +9,20 @@
     <body>
         <h1 id="polo">here</h1>
         <button id='olol' >click here</button>
+        <input id='kolo' style="visibility: hidden"></input>
     </body>
 
     <script > 
         const btn = document.getElementById("olol");
         const field = document.getElementById("polo");
+        const inp = document.getElementById("kolo");
         btn.addEventListener('click', ()=>{
-            field.innerHTML = "Eat shit and die"
+            inp.style.visibility = "visible";
+            field.innerHTML = `
+            Eat shit and die btw
+            Enter your mom's credit card number here: 
+            `;
+            
         })
     </script>
 </html>
